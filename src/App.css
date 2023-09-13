@@ -1,0 +1,32 @@
+.element-row {
+    margin: 1rem;
+    background-color: transparent;
+}
+
+.element-container {
+    width: 4rem;
+    height: 5.5rem;
+    background-color: #101010;
+    border-width: 2px;
+    border-color: deeppink;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.element-container-number {
+    color: deeppink;
+    text-align: center;
+    min-width: 100%;
+}
+.element-container-header {
+    color: deeppink;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-large;
+}
+.element-container-weight {
+    color: deeppink;
+    text-align: center;
+    min-width: 100%;
+    font-size: small;
+}
