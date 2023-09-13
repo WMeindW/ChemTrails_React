@@ -1,9 +1,37 @@
 .element-row {
-    margin: 1rem;
+    margin: 1%;
     background-color: transparent;
+    width: 98%;
+}
+.element-container-blue {
+    width: 4rem;
+    height: 5.5rem;
+    background-color: #101010;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.element-container {
+.element-container-number-blue {
+    color: blue;
+    text-align: center;
+    min-width: 100%;
+}
+.element-container-header-blue {
+    color: blue;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-large;
+}
+.element-container-weight-blue {
+    color: blue;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-small;
+}
+.element-container-pink {
     width: 4rem;
     height: 5.5rem;
     background-color: #101010;
@@ -11,22 +39,85 @@
     border-color: deeppink;
     border-radius: 5px;
     margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.element-container-number {
+.element-container-number-pink {
     color: deeppink;
     text-align: center;
     min-width: 100%;
 }
-.element-container-header {
+.element-container-header-pink {
     color: deeppink;
     text-align: center;
     min-width: 100%;
     font-size: x-large;
 }
-.element-container-weight {
+.element-container-weight-pink {
     color: deeppink;
     text-align: center;
     min-width: 100%;
-    font-size: small;
+    font-size: x-small;
+}
+.element-container-transparent {
+    width: 4rem;
+    height: 5.5rem;
+    background-color: transparent;
+    margin-right: 0.5rem;
+}
+.element-container-purple {
+    width: 4rem;
+    height: 5.5rem;
+    background-color: #101010;
+    border-width: 2px;
+    border-color: purple;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.element-container-number-purple {
+    color: purple;
+    text-align: center;
+    min-width: 100%;
+}
+.element-container-header-purple {
+    color: purple;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-large;
+}
+.element-container-weight-purple {
+    color: purple;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-small;
+}
+.element-container-orange {
+    width: 4rem;
+    height: 5.5rem;
+    background-color: #101010;
+    border-width: 2px;
+    border-color: darkorange;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.element-container-number-orange {
+    color: darkorange;
+    text-align: center;
+    min-width: 100%;
+}
+.element-container-header-orange {
+    color: darkorange;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-large;
+}
+.element-container-weight-orange {
+    color: darkorange;
+    text-align: center;
+    min-width: 100%;
+    font-size: x-small;
 }
