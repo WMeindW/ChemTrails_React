@@ -350,93 +350,90 @@ export default function App() {
             <div className={"element-container-weight-purple"}>131.293</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-pink"}>
-            <div className={"element-container-number-pink"}>37</div>
-            <div className={"element-container-header-pink"}>Rb</div>
+            <div className={"element-container-number-pink"}>55</div>
+            <div className={"element-container-header-pink"}>Cs</div>
             <div className={"element-container-weight-pink"}>85.4678</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-orange"}>
-            <div className={"element-container-number-orange"}>38</div>
-            <div className={"element-container-header-orange"}>Sr</div>
+            <div className={"element-container-number-orange"}>56</div>
+            <div className={"element-container-header-orange"}>Ba</div>
             <div className={"element-container-weight-orange"}>87.62</div>
         </div>
-        <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>39</div>
-            <div className={"element-container-header-yellow"}>Y</div>
-            <div className={"element-container-weight-yellow"}>88.9058</div>
+        <div className={"card element-container-transparent"}>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>40</div>
-            <div className={"element-container-header-yellow"}>Zr</div>
+            <div className={"element-container-number-yellow"}>72</div>
+            <div className={"element-container-header-yellow"}>Hf</div>
             <div className={"element-container-weight-yellow"}>91.224</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>41</div>
-            <div className={"element-container-header-yellow"}>Nb</div>
+            <div className={"element-container-number-yellow"}>73</div>
+            <div className={"element-container-header-yellow"}>Ta</div>
             <div className={"element-container-weight-yellow"}>92.9063</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>42</div>
-            <div className={"element-container-header-yellow"}>Mo</div>
+            <div className={"element-container-number-yellow"}>74</div>
+            <div className={"element-container-header-yellow"}>W</div>
             <div className={"element-container-weight-yellow"}>95.96</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>43</div>
-            <div className={"element-container-header-yellow"}>Tc</div>
+            <div className={"element-container-number-yellow"}>75</div>
+            <div className={"element-container-header-yellow"}>Re</div>
             <div className={"element-container-weight-yellow"}>98</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>44</div>
-            <div className={"element-container-header-yellow"}>Ru</div>
+            <div className={"element-container-number-yellow"}>76</div>
+            <div className={"element-container-header-yellow"}>Os</div>
             <div className={"element-container-weight-yellow"}>101.07</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>45</div>
-            <div className={"element-container-header-yellow"}>Rh</div>
+            <div className={"element-container-number-yellow"}>77</div>
+            <div className={"element-container-header-yellow"}>Ir</div>
             <div className={"element-container-weight-yellow"}>102.905</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>46</div>
-            <div className={"element-container-header-yellow"}>Pd</div>
+            <div className={"element-container-number-yellow"}>78</div>
+            <div className={"element-container-header-yellow"}>Pt</div>
             <div className={"element-container-weight-yellow"}>106.42</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>47</div>
-            <div className={"element-container-header-yellow"}>Ag</div>
+            <div className={"element-container-number-yellow"}>79</div>
+            <div className={"element-container-header-yellow"}>Au</div>
             <div className={"element-container-weight-yellow"}>107.868</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-yellow"}>
-            <div className={"element-container-number-yellow"}>48</div>
-            <div className={"element-container-header-yellow"}>Cd</div>
+            <div className={"element-container-number-yellow"}>80</div>
+            <div className={"element-container-header-yellow"}>Hg</div>
             <div className={"element-container-weight-yellow"}>112.411</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-green"}>
-            <div className={"element-container-number-green"}>49</div>
-            <div className={"element-container-header-green"}>In</div>
+            <div className={"element-container-number-green"}>81</div>
+            <div className={"element-container-header-green"}>Ti</div>
             <div className={"element-container-weight-green"}>114.818</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-green"}>
-            <div className={"element-container-number-green"}>50</div>
-            <div className={"element-container-header-green"}>Sn</div>
+            <div className={"element-container-number-green"}>82</div>
+            <div className={"element-container-header-green"}>Pb</div>
             <div className={"element-container-weight-green"}>118.71</div>
         </div>
-        <div onClick={(e) => click(e)} className={"card element-container-lblue"}>
-            <div className={"element-container-number-lblue"}>51</div>
-            <div className={"element-container-header-lblue"}>Sb</div>
-            <div className={"element-container-weight-lblue"}>121.76</div>
+        <div onClick={(e) => click(e)} className={"card element-container-green"}>
+            <div className={"element-container-number-green"}>83</div>
+            <div className={"element-container-header-green"}>Bi</div>
+            <div className={"element-container-weight-green"}>121.76</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-lblue"}>
-            <div className={"element-container-number-lblue"}>52</div>
-            <div className={"element-container-header-lblue"}>Te</div>
+            <div className={"element-container-number-lblue"}>84</div>
+            <div className={"element-container-header-lblue"}>Po</div>
             <div className={"element-container-weight-lblue"}>127.6</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-lpurple"}>
-            <div className={"element-container-number-lpurple"}>53</div>
-            <div className={"element-container-header-lpurple"}>I</div>
+            <div className={"element-container-number-lpurple"}>85</div>
+            <div className={"element-container-header-lpurple"}>At</div>
             <div className={"element-container-weight-lpurple"}>126.904</div>
         </div>
         <div onClick={(e) => click(e)} className={"card element-container-purple"}>
-            <div className={"element-container-number-purple"}>54</div>
-            <div className={"element-container-header-purple"}>Xe</div>
+            <div className={"element-container-number-purple"}>86</div>
+            <div className={"element-container-header-purple"}>Rn</div>
             <div className={"element-container-weight-purple"}>131.293</div>
         </div>
     </div>;
