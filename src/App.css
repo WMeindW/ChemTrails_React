@@ -8,7 +8,9 @@
 
 .element-container-blue {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: royalblue;
@@ -40,7 +42,9 @@
 
 .element-container-pink {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: deeppink;
@@ -73,7 +77,9 @@
 
 .element-container-transparent {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: transparent;
     border-color: transparent;
     margin-right: 0.5%;
@@ -82,7 +88,9 @@
 
 .element-container-purple {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: purple;
@@ -115,7 +123,9 @@
 
 .element-container-orange {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: darkorange;
@@ -148,7 +158,9 @@
 
 .element-container-lblue {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: deepskyblue;
@@ -181,7 +193,9 @@
 
 .element-container-lpurple {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: mediumpurple;
@@ -214,7 +228,9 @@
 
 .element-container-green {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: lightgreen;
@@ -247,7 +263,9 @@
 
 .element-container-yellow {
     width: 5%;
-    max-height: 10%;
+    height: 5%;
+    min-width: 4rem;
+    min-height: 3rem;
     background-color: #101010;
     border-width: 2px;
     border-color: yellow;
