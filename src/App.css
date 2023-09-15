@@ -1,3 +1,8 @@
+body {
+    background-color: #04090f;
+    background-image: url("/public/atom.svg");
+}
+
 .element-row {
     margin-top: 1%;
     margin-left: 1%;
@@ -11,7 +16,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: royalblue;
     border-radius: 5px;
@@ -45,7 +50,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: deeppink;
     border-radius: 5px;
@@ -81,9 +86,9 @@
     min-width: 4rem;
     min-height: 3rem;
     background-color: transparent;
-    border-color: transparent;
     margin-right: 0.5%;
     margin-bottom: 1%;
+    border-color: transparent;
 }
 
 .element-container-purple {
@@ -91,7 +96,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: purple;
     border-radius: 5px;
@@ -126,7 +131,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: darkorange;
     border-radius: 5px;
@@ -161,7 +166,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: deepskyblue;
     border-radius: 5px;
@@ -196,7 +201,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: mediumpurple;
     border-radius: 5px;
@@ -231,7 +236,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: lightgreen;
     border-radius: 5px;
@@ -266,7 +271,7 @@
     height: 5%;
     min-width: 4rem;
     min-height: 3rem;
-    background-color: #101010;
+    background-color: #04090f;
     border-width: 2px;
     border-color: yellow;
     border-radius: 5px;
