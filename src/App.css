@@ -300,3 +300,7 @@ body {
     min-width: 100%;
     font-size: 60%;
 }
+
+.radioactive {
+    background-image: url("/public/atom.svg");
+}
