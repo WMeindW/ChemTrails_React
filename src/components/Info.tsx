@@ -28,7 +28,7 @@ export default function Info(props: Props) {
         let elements: string[] = JSON.stringify(data).split("\"Row\":[")[1].split("\"Cell\":");
         let info: string[] = elements[Number(props.div.childNodes[0].textContent)].split("\",\"");
         setName(info[2]);
-        setAtomicNumber(info[0].replace("[\"",""));
+        setAtomicNumber(info[0].replace("[\"", ""));
         setAtomicMass(info[3]);
         setElectronConfiguration(info[5]);
         setElectroNegativity(info[6]);
@@ -37,11 +37,11 @@ export default function Info(props: Props) {
         setElectronAffinity(info[9]);
         setOxidationStates(info[10]);
         setStandardState(info[11]);
-        setMeltingPoint(info[12]);
-        setBoilingPoint(info[13]);
+        setMeltingPoint(info[12] + " K");
+        setBoilingPoint(info[13] + " K");
         setDensity(info[14]);
         setGroup(info[15]);
-        setDiscovered(info[16].replace("\"]},{",""));
+        setDiscovered(info[16].replace("\"]},{", ""));
         $.get("https://en.wikipedia.org/api/rest_v1/page/summary/" + name.replaceAll("\"", ""), (data) => {
             setText(JSON.stringify(data).split("\"extract\":\"")[1].split("\",\"extract_html\"")[0]);
         });
