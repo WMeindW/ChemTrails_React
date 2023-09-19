@@ -1,5 +1,6 @@
 import {useState} from "react";
 import "./Info.css";
+import './Home.css';
 
 interface Props {
     onRedirect: (div: HTMLDivElement) => void;
@@ -7,6 +8,7 @@ interface Props {
 }
 
 export default function Info(props: Props) {
+    console.log(props.div.children[1].classList[0].split('-')[3]);
     const [name, setName] = useState("");
     const [atomicNumber, setAtomicNumber] = useState("");
     const [atomicMass, setAtomicMass] = useState("");
@@ -46,7 +48,7 @@ export default function Info(props: Props) {
             setText(JSON.stringify(data).split("\"extract\":\"")[1].split("\",\"extract_html\"")[0]);
         });
     });
-    return <div className="row info-row">
+    return <div className={"row info-row " + props.div.children[1].classList[0].split('-')[3]}>
         <div className="card info-card">
             <div className="info-card-header">Name: {name}</div>
         </div>

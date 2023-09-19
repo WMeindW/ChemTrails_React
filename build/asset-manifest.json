@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.679828c6.css",
+    "main.js": "/static/js/main.60de592a.js",
+    "static/media/atom-radioactive.svg": "/static/media/atom-radioactive.1dfb4ff52e3f31e13ce2.svg",
+    "static/media/atom.svg": "/static/media/atom.353be870a5b46accefb9.svg",
+    "index.html": "/index.html",
+    "main.679828c6.css.map": "/static/css/main.679828c6.css.map",
+    "main.60de592a.js.map": "/static/js/main.60de592a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.679828c6.css",
+    "static/js/main.60de592a.js"
+  ]
+}
